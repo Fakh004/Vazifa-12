@@ -48,3 +48,11 @@
 # with open('text7_copy.txt', 'w') as myfile2:
 #     b=myfile2.write(a)
 
+# -------------------------------------------
+
+with open('file.txt','r') as file:
+   content=file.read()
+   a=content.replace('bad','good')
+
+with open('file.txt','w') as file:
+   file.write(a) 
