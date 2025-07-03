@@ -50,9 +50,20 @@
 
 # -------------------------------------------
 
-with open('file.txt','r') as file:
-   content=file.read()
-   a=content.replace('bad','good')
+# with open('file.txt','r') as file:
+#    content=file.read()
+#    a=content.replace('bad','good')
 
-with open('file.txt','w') as file:
-   file.write(a) 
+# with open('file.txt','w') as file:
+#    file.write(a) 
+
+# -------------------------------------------
+
+# with open('file.txt','r') as file:
+#     content=file.readlines()
+#     for i in content:
+#         if i=='\n':
+#             content.remove(i)
+
+# with open('file.txt','w') as file:
+#     file.writelines(content)
